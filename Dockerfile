@@ -8,6 +8,8 @@ RUN apt-get -y install git-core gnupg flex bison gperf build-essential zip curl 
 
 RUN apt-get -y install vim
 
+RUN apt-get -y install rsync
+
 RUN useradd -ms /bin/bash devwindsw
 USER devwindsw
 ENV HOME /home/devwindsw
