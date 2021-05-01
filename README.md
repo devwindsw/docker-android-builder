@@ -2,6 +2,8 @@
 
 Dockerfile for android open source project
 
+https://hub.docker.com/repository/docker/javachips/android-builder
+
 ## Running
 
 ### 1. Create a directory for Android
